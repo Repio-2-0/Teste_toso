@@ -5,8 +5,6 @@
 Servo myservo // Servo
 Adafruit_BMP085 bmp; // Termômetro
 
-int ant = 0;
-int pos = 120;
 
 void setup() {
   Serial.begin(9600); //Inicia conversa com o Arduino
