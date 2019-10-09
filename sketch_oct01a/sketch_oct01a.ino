@@ -2,7 +2,7 @@
 #include <Adafruit_BMP085.h>
 #include <Servo.h>
 
-Servo myservo; // Servo
+Servo myservo // Servo
 Adafruit_BMP085 bmp; // Termômetro
 
 int ant = 0;
